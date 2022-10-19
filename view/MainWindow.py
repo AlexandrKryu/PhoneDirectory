@@ -29,7 +29,7 @@ def main_window():
     button_open_file.grid(column=0, row=2, stick='s')
     button_save_file = tk.Button(text = 'Сохранить файл', width=20)
     button_save_file.grid(column=0, row=3, stick='s')
-    button_add_contact = tk.Button(text = 'Добавить контакт', width=20, command=AddContactWindow.open_window)
+    button_add_contact = tk.Button(text = 'Добавить контакт', width=20, command=AddContactWindow.open_window_Add)
     button_add_contact.grid(column=0, row=4, stick='s')
     button_change_contact = tk.Button(text = 'Изменить контакт', width=20, command=ChangeContactWindow.open_window)
     button_change_contact.grid(column=0, row=5, stick='s')
